@@ -1,0 +1,7 @@
+opencv-python
+numpy
+pillow
+rembg[cpu]
+onnxruntime
+# only for orbit_dots.py (depth) and pose-based looks:
+# transformers torch ultralytics

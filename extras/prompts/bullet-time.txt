@@ -1,0 +1,13 @@
+Bullet time with the black point-cloud orbit (the "freeze + orbit in black space" shot).
+Generator: Seedance 2.5 (omni_reference) with BOTH a start_image and an end_image, 6 s, 480p for tests.
+start_image = the person in the loaded stance. end_image = the exact apex pose (front view).
+The end frame pins the last frame, so the next cut (e.g. a 1:1 match cut) lands on identical pixels.
+
+PROMPT (edit the person/room/product words, keep the timeline and the camera path):
+0 to 1.2 s: fixed phone wide shot of a real living room. The man explodes from the loaded sprint stance into a powerful athletic forward leap toward the right: lead knee driven high, rear leg folded back, fist beside his chin, other arm back.
+1.2 s: at the top of the leap time freezes, he hangs perfectly still in mid-air for the rest of the shot.
+1.2 to 5 s: BULLET TIME CAMERA MOVE: the camera physically travels a full 360 degree circle around the frozen man at his chest height, keeping him centred: first it swings to his front, then around behind his back so we see his back and the soles of his shoes, then past his other side, then back to the starting front view. During the orbit the living room dissolves into pure black space, his body becomes a glowing 3D point cloud of fine white dots, only the shoes keep their colour, slow waves of white dots ripple through the void below.
+5 to 6 s: the camera arrives exactly at the original front view, the dots solidify, the room returns, last frame identical to the end frame.
+He never looks at the camera, never smiles. Clothes and shoes unchanged.
+
+Notes: without the step-by-step camera path the camera does not move. The model may arrive early and hold the end frame: cut when the pose is reached.
